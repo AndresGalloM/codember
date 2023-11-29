@@ -6,7 +6,7 @@ def read_file():
     os.path.join('2023', 'challenge_03', 'challenge_03.txt'),
     encoding='UTF-8'
   ) as file:
-    return file.read()
+    return file.read().splitlines()
   
 def run():
   try:
@@ -15,7 +15,7 @@ def run():
     print('⭕ Error: no se proporciono el parametro')
     sys.exit(1)
 
-  content = read_file().splitlines()
+  content = read_file()
   count = 0
 
   for index, info_password in enumerate(content):
