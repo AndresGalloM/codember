@@ -14,7 +14,7 @@ def run():
   for word, cant in words.items():
     result += f"{word}{cant}"
 
-  return
+  return result
 
 if __name__ == '__main__':
   print(run())
