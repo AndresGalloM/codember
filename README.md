@@ -13,4 +13,7 @@ Codember es una evento desarollado por [@midudev](https://github.com/midudev) en
 
 | N°  |         Reto         |
 | :-: | :------------------: |
-| #01 | Mensajes Encriptados |
+| #01 | [Python](/2023/challenge_01/challenge_01.py) |
+| #02 | [Python](/2023/challenge_02/challenge_02.py) |
+| #03 | [Python](/2023/challenge_03/challenge_03.py) |
+| #04 | [Python](/2023/challenge_04/challenge_04.py) |
