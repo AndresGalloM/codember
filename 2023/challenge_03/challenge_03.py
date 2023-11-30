@@ -18,7 +18,7 @@ def run():
   content = read_file()
   count = 0
 
-  for index, info_password in enumerate(content):
+  for info_password in content:
     info, password = info_password.split(':')
     limit, word = info.split(' ')
     minimum, maximum = limit.split('-')
@@ -27,7 +27,7 @@ def run():
       count += 1
       # sys.argv[1]: parametro al ejecutar el script
       # py 2023/challenge_03/challenge_03.py 13
-      if count == param: return content[index]
+      if count == param: return password
 
 if __name__ == '__main__':
   print(run())
