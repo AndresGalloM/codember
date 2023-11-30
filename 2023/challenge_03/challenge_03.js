@@ -10,7 +10,7 @@ async function read_file() {
 }
 
 async function run() {
-  const arg = Number(process.argv[2] ?? 1);
+  const arg = Number(process.argv[2] ?? 13);
   const passwords = await read_file();
   let count = 0;
 
